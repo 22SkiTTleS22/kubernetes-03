@@ -1,4 +1,4 @@
-1.
+1. https://github.com/22SkiTTleS22/kubernetes-03/blob/main/deployment1.yaml
 <img width="1114" height="211" alt="image" src="https://github.com/user-attachments/assets/4c8f48af-e1c9-4c64-9d8d-1e84f3fe20eb" />
 
 <img width="1001" height="140" alt="image" src="https://github.com/user-attachments/assets/961f58e2-3f90-40d0-ab7f-5e0c5ebe7f05" />
@@ -7,7 +7,7 @@
 
 <img width="1693" height="715" alt="image" src="https://github.com/user-attachments/assets/78141068-e088-4e18-a6c0-c48607cd774a" />
 
-2.
+2. https://github.com/22SkiTTleS22/kubernetes-03/blob/main/deployment2.yaml
 <img width="999" height="191" alt="image" src="https://github.com/user-attachments/assets/d412dffa-a3e7-4536-8476-ec882903ecd4" />
 app2 в статусе Init:0/1 — ждёт Service app2-svc, которого ещё нет
 
