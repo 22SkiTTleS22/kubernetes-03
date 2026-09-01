@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: app2
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: app2
+  template:
+    metadata:
+      labels:
+        app: app2
+    spec:
+      initContainers:
+      - name: init-wait
+        image: busybox
+        command: ['sh', '-c', 'until nslookup app2-svc.default.svc.cluster.local | grep -q Address; do echo waiting for app2-svc; sleep 2; done']
+      containers:
+      - name: nginx
+        image: nginx:latest
+        ports:
+        - containerPort: 80
